@@ -1,4 +1,4 @@
-package GitHub.pageobject;
+package github.pageobject;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
@@ -21,7 +21,7 @@ public class GitHubWiki extends GitHubRepo{
 
     public GitHubWiki pageIsFound(String text){
         listOfFoundPages
-                .$(byText("SoftAssertions"))
+                .$(byText(text))
                 .should(Condition.appear);
 
         return this;
@@ -29,7 +29,7 @@ public class GitHubWiki extends GitHubRepo{
 
     public GitHubWiki openPage(String text){
         listOfFoundPages
-                .$(byText("SoftAssertions"))
+                .$(byText(text))
                 .click();
 
         return this;

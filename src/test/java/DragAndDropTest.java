@@ -1,4 +1,4 @@
-import DragAndDrop.utils.BaseTest;
+import dragAndDrop.utils.BaseTest;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.Test;

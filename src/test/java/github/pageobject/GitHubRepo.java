@@ -1,4 +1,4 @@
-package GitHub.pageobject;
+package github.pageobject;
 
 import com.codeborne.selenide.SelenideElement;
 

@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.Test;
-import GitHub.pageobject.GitHubRepo;
-import GitHub.pageobject.GitHubWiki;
-import GitHub.pageobject.GitHubWikiSoftAssertions;
-import GitHub.utils.BaseTest;
+import github.pageobject.GitHubRepo;
+import github.pageobject.GitHubWiki;
+import github.pageobject.GitHubWikiSoftAssertions;
+import github.utils.BaseTest;
 
 import static com.codeborne.selenide.Selenide.*;
 
